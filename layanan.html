@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Konten - Konten & Desain</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="layanan-styles.css">
+</head>
+<body class="bg-[#F8F9FD]">
+
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-[#1E1E50] text-white flex flex-col justify-between p-4 fixed h-full z-10">
+            <div>
+                <div class="flex items-center gap-3 px-2 py-4 mb-4">
+                    <div class="bg-gradient-to-tr from-purple-600 to-blue-500 w-10 h-10 rounded-xl flex items-center justify-center font-bold text-xl italic shadow-md">
+                        KD
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-sm tracking-wide leading-tight">KONTEN & DESAIN</h1>
+                        <p class="text-[10px] text-gray-400 font-medium tracking-widest">KREATIF . STRATEGIS . BERDAMPAK</p>
+                    </div>
+                </div>
+
+                <nav class="space-y-1">
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-house w-5 text-center"></i> Dashboard
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-folder w-5 text-center"></i> Proyek
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-clipboard-list w-5 text-center"></i> Pesanan
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-calendar-days w-5 text-center"></i> Kalender
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-users w-5 text-center"></i> Klien
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 bg-[#4F46E5] text-white rounded-xl text-sm font-semibold transition-all">
+                        <i class="fa-solid fa-image w-5 text-center"></i> Konten
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-palette w-5 text-center"></i> Desain
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-file-invoice-dollar w-5 text-center"></i> Invoice
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-chart-simple w-5 text-center"></i> Laporan
+                    </a>
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-gear w-5 text-center"></i> Pengaturan
+                    </a>
+                </nav>
+            </div>
+
+            <div class="bg-gradient-to-b from-[#2E2E7A] to-[#1E1E50] p-4 rounded-2xl border border-purple-900/40 text-center relative overflow-hidden shadow-inner">
+                <i class="fa-solid fa-crown text-amber-400 text-xl mb-2 block"></i>
+                <h4 class="font-bold text-xs mb-1 text-white">Tingkatkan Layanan</h4>
+                <p class="text-[10px] text-gray-300 leading-relaxed mb-3 px-1">Dapatkan lebih banyak fitur dan kemudahan dengan paket premium.</p>
+                <button class="w-full bg-white text-[#1E1E50] py-2 rounded-xl text-xs font-bold shadow-md hover:bg-gray-100 transition-all">
+                    Upgrade Sekarang
+                </button>
+            </div>
+        </aside>
+
+        <div class="flex-1 ml-64 p-8">
+            <header class="flex justify-between items-center mb-6">
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800">Layanan Konten</h2>
+                    <p class="text-xs text-gray-400 mt-0.5">Pilih layanan konten yang sesuai dengan kebutuhan brand kamu.</p>
+                </div>
+                
+                <div class="flex items-center gap-6">
+                    <div class="relative w-64">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+                        <input type="text" placeholder="Cari layanan konten..." class="w-full bg-white pl-9 pr-4 py-2 rounded-xl text-xs border border-gray-100 focus:outline-none focus:border-indigo-500 shadow-sm transition-all text-gray-600">
+                    </div>
+                    <div class="relative bg-white p-2.5 rounded-xl border border-gray-100 shadow-sm cursor-pointer">
+                        <i class="fa-regular fa-bell text-gray-600 text-base"></i>
+                        <span class="absolute top-1.5 right-1.5 w-4 h-4 bg-blue-600 text-[9px] text-white font-bold flex items-center justify-center rounded-full border-2 border-white">3</span>
+                    </div>
+                    <div class="flex items-center gap-3 pl-2 border-l border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100" alt="Avatar" class="w-9 h-9 rounded-full object-cover border-2 border-indigo-100">
+                        <div>
+                            <h4 class="text-xs font-bold text-gray-800 flex items-center gap-1">Kreator Digital <i class="fa-solid fa-chevron-down text-[9px] text-gray-400 ml-1"></i></h4>
+                            <p class="text-[10px] text-gray-400 font-medium">Administrator</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="flex flex-wrap gap-2 mb-6 text-xs font-medium">
+                <button class="px-4 py-2 bg-[#4F46E5] text-white rounded-xl font-semibold shadow-sm transition-all">Semua Layanan</button>
+                <button class="px-4 py-2 bg-white text-gray-500 hover:bg-gray-50 border border-gray-100/50 rounded-xl shadow-sm transition-all">Media Sosial</button>
+                <button class="px-4 py-2 bg-white text-gray-500 hover:bg-gray-50 border border-gray-100/50 rounded-xl shadow-sm transition-all">Artikel & Blog</button>
+                <button class="px-4 py-2 bg-white text-gray-500 hover:bg-gray-50 border border-gray-100/50 rounded-xl shadow-sm transition-all">Video</button>
+                <button class="px-4 py-2 bg-white text-gray-500 hover:bg-gray-50 border border-gray-100/50 rounded-xl shadow-sm transition-all">Iklan</button>
+                <button class="px-4 py-2 bg-white text-gray-500 hover:bg-gray-50 border border-gray-100/50 rounded-xl shadow-sm transition-all">Copywriting</button>
+                <button class="px-4 py-2 bg-white text-gray-500 hover:bg-gray-50 border border-gray-100/50 rounded-xl shadow-sm transition-all">Lainnya</button>
+            </section>
+
+            <section class="grid grid-cols-4 gap-5 mb-6">
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-[270px]">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white flex items-center justify-center text-lg shadow-sm mb-3">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 mb-1">Konten Instagram Feeds</h3>
+                        <p class="text-[10px] text-gray-400 leading-relaxed font-medium mb-3">Desain feed Instagram yang menarik, konsisten, dan sesuai dengan identitas brand.</p>
+                        <ul class="text-[9px] text-gray-500 space-y-1 font-medium">
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Desain Custom</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Revisi 2x</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Format JPG/PNG</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-end pt-3 border-t border-gray-50 mt-2">
+                        <div>
+                            <span class="text-[9px] text-gray-400 font-medium block">Mulai dari</span>
+                            <span class="text-xs font-bold text-gray-800">Rp 150.000</span>
+                        </div>
+                        <button class="text-[9px] font-bold text-[#4F46E5] border border-[#4F46E5]/30 px-3 py-1.5 rounded-lg hover:bg-[#4F46E5] hover:text-white transition-all">Pilih Layanan</button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-[270px]">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-teal-400 to-emerald-600 text-white flex items-center justify-center text-lg shadow-sm mb-3">
+                            <i class="fa-regular fa-images"></i>
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 mb-1">Konten Instagram Story</h3>
+                        <p class="text-[10px] text-gray-400 leading-relaxed font-medium mb-3">Desain story Instagram yang interaktif dan engaging untuk audience kamu.</p>
+                        <ul class="text-[9px] text-gray-500 space-y-1 font-medium">
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Desain Custom</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Revisi 2x</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Format JPG/PNG</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-end pt-3 border-t border-gray-50 mt-2">
+                        <div>
+                            <span class="text-[9px] text-gray-400 font-medium block">Mulai dari</span>
+                            <span class="text-xs font-bold text-gray-800">Rp 100.000</span>
+                        </div>
+                        <button class="text-[9px] font-bold text-[#4F46E5] border border-[#4F46E5]/30 px-3 py-1.5 rounded-lg hover:bg-[#4F46E5] hover:text-white transition-all">Pilih Layanan</button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-[270px]">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-black text-white flex items-center justify-center text-lg shadow-sm mb-3">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 mb-1">Konten TikTok</h3>
+                        <p class="text-[10px] text-gray-400 leading-relaxed font-medium mb-3">Konten TikTok yang kreatif dan mampu meningkatkan engagement.</p>
+                        <ul class="text-[9px] text-gray-500 space-y-1 font-medium">
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Script + Konsep</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Video Editing</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Revisi 2x</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-end pt-3 border-t border-gray-50 mt-2">
+                        <div>
+                            <span class="text-[9px] text-gray-400 font-medium block">Mulai dari</span>
+                            <span class="text-xs font-bold text-gray-800">Rp 250.000</span>
+                        </div>
+                        <button class="text-[9px] font-bold text-[#4F46E5] border border-[#4F46E5]/30 px-3 py-1.5 rounded-lg hover:bg-[#4F46E5] hover:text-white transition-all">Pilih Layanan</button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-[270px]">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center text-lg shadow-sm mb-3">
+                            <i class="fa-regular fa-file-lines"></i>
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 mb-1">Artikel Blog</h3>
+                        <p class="text-[10px] text-gray-400 leading-relaxed font-medium mb-3">Artikel SEO friendly yang informatif dan meningkatkan traffic website.</p>
+                        <ul class="text-[9px] text-gray-500 space-y-1 font-medium">
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Riset Keyword</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> 100% Original</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Revisi 2x</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-end pt-3 border-t border-gray-50 mt-2">
+                        <div>
+                            <span class="text-[9px] text-gray-400 font-medium block">Mulai dari</span>
+                            <span class="text-xs font-bold text-gray-800">Rp 200.000</span>
+                        </div>
+                        <button class="text-[9px] font-bold text-[#4F46E5] border border-[#4F46E5]/30 px-3 py-1.5 rounded-lg hover:bg-[#4F46E5] hover:text-white transition-all">Pilih Layanan</button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-[270px]">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-red-600 text-white flex items-center justify-center text-lg shadow-sm mb-3">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 mb-1">Konten YouTube</h3>
+                        <p class="text-[10px] text-gray-400 leading-relaxed font-medium mb-3">Video YouTube berkualitas dengan editing profesional dan storytelling kuat.</p>
+                        <ul class="text-[9px] text-gray-500 space-y-1 font-medium">
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Script + Konsep</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Video Editing</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Thumbnail</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-end pt-3 border-t border-gray-50 mt-2">
+                        <div>
+                            <span class="text-[9px] text-gray-400 font-medium block">Mulai dari</span>
+                            <span class="text-xs font-bold text-gray-800">Rp 400.000</span>
+                        </div>
+                        <button class="text-[9px] font-bold text-[#4F46E5] border border-[#4F46E5]/30 px-3 py-1.5 rounded-lg hover:bg-[#4F46E5] hover:text-white transition-all">Pilih Layanan</button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-[270px]">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-amber-500 text-white flex items-center justify-center text-lg shadow-sm mb-3">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 mb-1">Copywriting Iklan</h3>
+                        <p class="text-[10px] text-gray-400 leading-relaxed font-medium mb-3">Teks iklan yang persuasif dan terbukti meningkatkan konversi.</p>
+                        <ul class="text-[9px] text-gray-500 space-y-1 font-medium">
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Riset Audiens</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Headline Menarik</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Revisi 2x</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-end pt-3 border-t border-gray-50 mt-2">
+                        <div>
+                            <span class="text-[9px] text-gray-400 font-medium block">Mulai dari</span>
+                            <span class="text-xs font-bold text-gray-800">Rp 150.000</span>
+                        </div>
+                        <button class="text-[9px] font-bold text-[#4F46E5] border border-[#4F46E5]/30 px-3 py-1.5 rounded-lg hover:bg-[#4F46E5] hover:text-white transition-all">Pilih Layanan</button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-[270px]">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center text-lg shadow-sm mb-3">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <h3 class="text-xs font-bold text-gray-800 mb-1">Email Marketing</h3>
+                        <p class="text-[10px] text-gray-400 leading-relaxed font-medium mb-3">Email marketing yang menarik dan meningkatkan engagement pelanggan.</p>
+                        <ul class="text-[9px] text-gray-500 space-y-1 font-medium">
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Desain Email</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Copywriting</li>
+                            <li class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-blue-600 text-[8px]"></i> Revisi 2x</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-between items-end pt-3 border-t border-gray-50 mt-2">
+                        <div>
+                            <span class="text-[9px] text-gray-400 font-medium block">Mulai dari</span>
+                            <span class="text-xs font-bold text-gray-800">Rp 200.000</span>
+                        </div>
+                        <button class="text-[9px] font-bold text-[#4F46E5] border border-[#4F46E5]/30 px-3 py-1.5 rounded-lg hover:bg-[#4F46E5] hover:text-white transition-all">Pilih Layanan</button>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm flex flex-col justify-between h-

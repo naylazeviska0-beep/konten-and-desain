@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan - Konten & Desain</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#F8F9FD] min-h-screen font-['Plus_Jakarta_Sans'] text-gray-800">
+
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-[#1E1E50] text-white flex flex-col justify-between p-4 fixed h-full z-10">
+            <div>
+                <div class="flex items-center gap-3 px-2 py-4 mb-4">
+                    <div class="bg-gradient-to-tr from-purple-600 to-blue-500 w-10 h-10 rounded-xl flex items-center justify-center font-bold text-xl italic shadow-md">KD</div>
+                    <div>
+                        <h1 class="font-bold text-sm tracking-wide leading-tight">KONTEN & DESAIN</h1>
+                        <p class="text-[10px] text-gray-400 font-medium tracking-widest">KREATIF . STRATEGIS . BERDAMPAK</p>
+                    </div>
+                </div>
+
+                <nav class="space-y-1">
+                    <a href="dashboard.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-house w-5 text-center"></i> Dashboard</a>
+                    <a href="proyek.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-folder w-5 text-center"></i> Proyek</a>
+                    <a href="pesanan.html" class="flex items-center gap-3 px-4 py-3 bg-[#4F46E5] text-white rounded-xl text-sm font-semibold transition-all"><i class="fa-solid fa-clipboard-list w-5 text-center"></i> Pesanan</a>
+                    <a href="kalender.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-calendar-days w-5 text-center"></i> Kalender</a>
+                    <a href="klien.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-users w-5 text-center"></i> Klien</a>
+                    <a href="konten.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-image w-5 text-center"></i> Konten</a>
+                    <a href="desain.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-palette w-5 text-center"></i> Desain</a>
+                    <a href="invoice.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-file-invoice-dollar w-5 text-center"></i> Invoice</a>
+                    <a href="laporan.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-chart-simple w-5 text-center"></i> Laporan</a>
+                    <a href="pengaturan.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all"><i class="fa-solid fa-gear w-5 text-center"></i> Pengaturan</a>
+                </nav>
+            </div>
+
+            <div class="bg-gradient-to-b from-[#2E2E7A] to-[#1E1E50] p-4 rounded-2xl text-center border border-purple-900/40">
+                <i class="fa-solid fa-crown text-amber-400 text-xl mb-2 block"></i>
+                <h4 class="font-bold text-xs text-white mb-1">Tingkatkan Layanan</h4>
+                <p class="text-[10px] text-gray-300 mb-3">Dapatkan lebih banyak fitur dan kemudahan dengan paket premium.</p>
+                <button class="w-full bg-white text-[#1E1E50] py-2 rounded-xl text-xs font-bold hover:bg-gray-100 transition-all">Upgrade Sekarang</button>
+            </div>
+        </aside>
+
+        <div class="flex-1 ml-64 p-8">
+            <header class="flex justify-between items-center mb-6">
+                <div>
+                    <h2 class="text-sm font-medium text-gray-400">Pesanan</h2>
+                    <h3 class="text-2xl font-bold text-gray-800 mt-1">Pesanan & Konten</h3>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="relative w-64">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-gray-400 text-xs"></i>
+                        <input type="text" placeholder="Cari proyek, klien, atau konten..." class="w-full pl-9 pr-4 py-2 bg-white border border-gray-200 rounded-xl text-xs outline-none focus:border-indigo-500">
+                    </div>
+                    <div class="relative p-2 bg-white border border-gray-200 rounded-xl text-gray-500">
+                        <i class="fa-solid fa-bell text-sm"></i>
+                        <span class="absolute top-1 right-1 w-2 h-2 bg-indigo-600 rounded-full"></span>
+                    </div>
+                    <div class="flex items-center gap-3 pl-2 border-l border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100" class="w-9 h-9 rounded-full object-cover">
+                        <div>
+                            <h4 class="text-xs font-bold text-gray-800">Kreator Digital</h4>
+                            <p class="text-[10px] text-gray-400">Administrator</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="grid grid-cols-4 gap-5 mb-6">
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center gap-4">
+                    <div class="p-3 bg-purple-50 text-purple-600 rounded-xl text-lg"><i class="fa-solid fa-folder-open"></i></div>
+                    <div><p class="text-[11px] text-gray-400 font-medium">Total Pesanan Ini</p><h3 class="text-lg font-bold text-gray-800">24</h3></div>
+                </div>
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center gap-4">
+                    <div class="p-3 bg-blue-50 text-blue-600 rounded-xl text-lg"><i class="fa-solid fa-file-invoice"></i></div>
+                    <div><p class="text-[11px] text-gray-400 font-medium">Pesanan Masuk</p><h3 class="text-lg font-bold text-gray-800">0</h3></div>
+                </div>
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center gap-4">
+                    <div class="p-3 bg-amber-50 text-amber-600 rounded-xl text-lg"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <div><p class="text-[11px] text-gray-400 font-medium">Menunggu Review</p><h3 class="text-lg font-bold text-gray-800">0</h3></div>
+                </div>
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center gap-4">
+                    <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl text-lg"><i class="fa-solid fa-circle-check"></i></div>
+                    <div><p class="text-[11px] text-gray-400 font-medium">Pesanan Selesai</p><h3 class="text-lg font-bold text-gray-800">5</h3></div>
+                </div>
+            </section>
+
+            <section class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-sm font-bold text-gray-800">Pesanan Pesanan</h3>
+                    <select class="text-xs border border-gray-200 rounded-lg px-2 py-1 bg-white outline-none text-gray-500 font-medium"><option>Bulan ini</option></select>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="text-xs text-gray-800 font-bold bg-gray-50/50 border-b border-gray-100">
+                                <th class="p-3">No. Pesanan</th>
+                                <th class="p-3">Klien</th>
+                                <th class="p-3">Jenis Layanan</th>
+                                <th class="p-3">Nama Konten/Desain</th>
+                                <th class="p-3">Tanggal Pesanan</th>
+                                <th class="p-3">Status</th>
+                                <th class="p-3">Prioritas</th>
+                                <th class="p-3">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs text-gray-600 font-medium divide-y divide-gray-100">
+                            <tr class="hover:bg-gray-50/50">
+                                <td class="p-3 text-gray-400">#ORD-2406-001</td>
+                                <td class="p-3 font-bold text-gray-800">PT. Maju Jaya</td>
+                                <td class="p-3">Konten Instagram (Feed)</td>
+                                <td class="p-3 italic">"Promo Produk Baru"</td>
+                                <td class="p-3">10 Jun 2026</td>
+                                <td class="p-3"><span class="bg-purple-100 text-purple-700 text-[10px] px-2.5 py-1 rounded-full font-bold">Dalam Proses</span></td>
+                                <td class="p-3"><span class="bg-rose-100 text-rose-700 text-[10px] px-2.5 py-1 rounded-full font-bold">Tinggi</span></td>
+                                <td class="p-3 font-bold text-gray-800">Rp 24.750.000</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50/50">
+                                <td class="p-3 text-gray-400">#ORD-2406-002</td>
+                                <td class="p-3 font-bold text-gray-800">Sarah Amalia</td>
+                                <td class="p-3">Desain Brosur</td>
+                                <td class="p-3 italic">"Event Musik Lokal"</td>
+                                <td class="p-3">12 Jun 2026</td>
+                                <td class="p-3"><span class="bg-amber-100 text-amber-700 text-[10px] px-2.5 py-1 rounded-full font-bold">Menunggu Review</span></td>
+                                <td class="p-3"><span class="bg-amber-100 text-amber-700 text-[10px] px-2.5 py-1 rounded-full font-bold">Sedang</span></td>
+                                <td class="p-3 font-bold text-gray-800">Rp 24.750.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-sm font-bold text-gray-800">Pesanan Mendesak</h3>
+                    <a href="#" class="text-xs text-indigo-600 font-bold hover:underline">Lihat Semua</a>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="text-xs text-gray-800 font-bold bg-gray-50/50 border-b border-gray-100">
+                                <th class="p-3">No. Pesanan</th>
+                                <th class="p-3">Klien</th>
+                                <th class="p-3">Jenis Layanan</th>
+                                <th class="p-3">Nama Konten/Desain</th>
+                                <th class="p-3">Tanggal Pesanan</th>
+                                <th class="p-3">Status</th>
+                                <th class="p-3">Prioritas</th>
+                                <th class="p-3">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs text-gray-600 font-medium">
+                            <tr class="hover:bg-gray-50/50">
+                                <td class="p-3 text-gray-400">#ORD-2406-001</td>
+                                <td class="p-3 font-bold text-gray-800">PT. Maju Jaya</td>
+                                <td class="p-3">Konten Instagram (Feed)</td>
+                                <td class="p-3 italic">"Promo Produk Baru"</td>
+                                <td class="p-3">10 Jun 2026</td>
+                                <td class="p-3"><span class="bg-purple-100 text-purple-700 text-[10px] px-2.5 py-1 rounded-full font-bold">Dalam Proses</span></td>
+                                <td class="p-3"><span class="bg-rose-100 text-rose-700 text-[10px] px-2.5 py-1 rounded-full font-bold">Tinggi</span></td>
+                                <td class="p-3 font-bold text-gray-800">Rp 24.750.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>

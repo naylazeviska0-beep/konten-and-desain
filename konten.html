@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Konten - Konten & Desain</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-[#F8F9FD] min-h-screen font-['Plus_Jakarta_Sans'] text-gray-800">
+
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-[#1E1E50] text-white flex flex-col justify-between p-4 fixed h-full z-10">
+            <div>
+                <div class="flex items-center gap-3 px-2 py-4 mb-4">
+                    <div class="bg-gradient-to-tr from-purple-600 to-blue-500 w-10 h-10 rounded-xl flex items-center justify-center font-bold text-xl italic shadow-md">KD</div>
+                    <div>
+                        <h1 class="font-bold text-sm tracking-wide leading-tight">KONTEN & DESAIN</h1>
+                        <p class="text-[10px] text-gray-400 font-medium tracking-widest">KREATIF . STRATEGIS . BERDAMPAK</p>
+                    </div>
+                </div>
+
+                <nav class="space-y-1">
+                    <a href="dashboard.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-house w-5 text-center"></i> Dashboard
+                    </a>
+                    <a href="proyek.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-folder w-5 text-center"></i> Proyek
+                    </a>
+                    <a href="pesanan.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-clipboard-list w-5 text-center"></i> Pesanan
+                    </a>
+                    <a href="kalender.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-calendar-days w-5 text-center"></i> Kalender
+                    </a>
+                    <a href="klien.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-users w-5 text-center"></i> Klien
+                    </a>
+                    <a href="konten.html" class="flex items-center gap-3 px-4 py-3 bg-[#4F46E5] text-white rounded-xl text-sm font-semibold transition-all">
+                        <i class="fa-solid fa-image w-5 text-center"></i> Konten
+                    </a>
+                    <a href="#" onclick="alert('Halaman Desain')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-palette w-5 text-center"></i> Desain
+                    </a>
+                    <a href="#" onclick="alert('Halaman Invoice')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-file-invoice-dollar w-5 text-center"></i> Invoice
+                    </a>
+                    <a href="#" onclick="alert('Halaman Laporan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-chart-simple w-5 text-center"></i> Laporan
+                    </a>
+                    <a href="#" onclick="alert('Halaman Pengaturan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-gear w-5 text-center"></i> Pengaturan
+                    </a>
+                </nav>
+            </div>
+
+            <div class="bg-gradient-to-b from-[#2E2E7A] to-[#1E1E50] p-4 rounded-2xl text-center border border-purple-900/40">
+                <i class="fa-solid fa-crown text-amber-400 text-xl mb-2 block"></i>
+                <h4 class="font-bold text-xs text-white mb-1">Tingkatkan Layanan</h4>
+                <p class="text-[10px] text-gray-300 mb-3 px-1">Dapatkan lebih banyak fitur dan kemudahan dengan paket premium.</p>
+                <button class="w-full bg-white text-[#1E1E50] py-2 rounded-xl text-xs font-bold hover:bg-gray-100 transition-all">Upgrade Sekarang</button>
+            </div>
+        </aside>
+
+        <div class="flex-1 ml-64 p-8">
+            
+            <header class="flex justify-between items-center mb-6">
+                <div>
+                    <h2 class="text-sm font-medium text-gray-400">Konten</h2>
+                    <h3 class="text-2xl font-bold text-gray-800 mt-1">Manajemen Konten Digital</h3>
+                </div>
+                <div class="flex items-center gap-6">
+                    <div class="relative w-64">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+                        <input type="text" placeholder="Cari proyek, klien, atau konten..." class="w-full bg-white pl-9 pr-4 py-2 rounded-xl text-xs border border-gray-100 focus:outline-none focus:border-indigo-500 shadow-sm text-gray-600">
+                    </div>
+                    <div class="relative bg-white p-2.5 rounded-xl border border-gray-100 shadow-sm cursor-pointer">
+                        <i class="fa-regular fa-bell text-gray-600"></i>
+                        <span class="absolute top-1.5 right-1.5 w-4 h-4 bg-blue-600 text-[9px] text-white font-bold flex items-center justify-center rounded-full border-2 border-white">1</span>
+                    </div>
+                    <div class="flex items-center gap-3 pl-2 border-l border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100" class="w-9 h-9 rounded-full object-cover border-2 border-indigo-100" alt="Avatar">
+                        <div>
+                            <h4 class="text-xs font-bold text-gray-800 flex items-center gap-1">Kreator Digital <i class="fa-solid fa-chevron-down text-[9px] text-gray-400"></i></h4>
+                            <p class="text-[10px] text-gray-400 font-medium">Administrator</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="grid grid-cols-4 gap-5 mb-6">
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="p-3 bg-purple-50 text-purple-600 rounded-xl"><i class="fa-solid fa-photo-film text-lg"></i></div>
+                        <div>
+                            <p class="text-[11px] font-medium text-gray-400">Total Konten Aktif</p>
+                            <h3 class="text-2xl font-bold text-gray-800 mt-0.5">30</h3>
+                        </div>
+                    </div>
+                    <span class="text-[11px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded flex items-center gap-0.5"><i class="fa-solid fa-caret-up"></i> 51.3%</span>
+                </div>
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="p-3 bg-blue-50 text-blue-600 rounded-xl"><i class="fa-solid fa-bullhorn text-lg"></i></div>
+                        <div>
+                            <p class="text-[11px] font-medium text-gray-400">Konten Baru Bulan Ini</p>
+                            <h3 class="text-2xl font-bold text-gray-800 mt-0.5">5</h3>
+                        </div>
+                    </div>
+                    <span class="text-[11px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded flex items-center gap-0.5"><i class="fa-solid fa-caret-up"></i> 5.1%</span>
+                </div>
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="p-3 bg-amber-50 text-amber-600 rounded-xl"><i class="fa-solid fa-hourglass-half text-lg"></i></div>
+                        <div>
+                            <p class="text-[11px] font-medium text-gray-400">Revisi Konten Pending</p>
+                            <h3 class="text-2xl font-bold text-gray-800 mt-0.5">0</h3>
+                        </div>
+                    </div>
+                    <span class="text-[11px] font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded flex items-center gap-0.5"><i class="fa-solid fa-caret-down"></i> 0.2%</span>
+                </div>
+                <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="p-3 bg-emerald-50 text-emerald-600 rounded-xl"><i class="fa-solid fa-cloud-arrow-up text-lg"></i></div>
+                        <div>
+                            <p class="text-[11px] font-medium text-gray-400">Konten Terpublikasi</p>
+                            <h3 class="text-2xl font-bold text-gray-800 mt-0.5">2</h3>
+                        </div>
+                    </div>
+                    <span class="text-[11px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded flex items-center gap-0.5"><i class="fa-solid fa-caret-up"></i> 12.0%</span>
+                </div>
+            </section>
+
+            <section class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm mb-6">
+                <div class="flex justify-between items-center mb-5">
+                    <h3 class="text-sm font-bold text-gray-800">Perpustakaan Konten</h3>
+                    <select class="text-xs border border-gray-200 rounded-lg px-2.5 py-1.5 outline-none text-gray-500 font-medium bg-white">
+                        <option>Bulan ini</option>
+                    </select>
+                </div>
+
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="border-b border-gray-100 text-xs text-gray-800 font-bold">
+                                <th class="pb-3 whitespace-nowrap">No. Konten</th>
+                                <th class="pb-3 whitespace-nowrap">Nama Konten</th>
+                                <th class="pb-3 whitespace-nowrap">Klien</th>
+                                <th class="pb-3 whitespace-nowrap">Platform</th>
+                                <th class="pb-3 whitespace-nowrap">Tenggat Publikasi</th>
+                                <th class="pb-3 whitespace-nowrap">Status Produksi</th>
+                                <th class="pb-3 whitespace-nowrap">Penanggung Jawab</th>
+                                <th class="pb-3 text-center whitespace-nowrap">Tindakan</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-xs text-gray-600 divide-y divide-gray-100 font-medium">
+                            <tr class="hover:bg-gray-50/80 transition-all">
+                                <td class="py-4 font-semibold text-gray-800">#CON-0001</td>
+                                <td class="py-4 font-medium text-gray-800">"Promo Produk Baru"</td>
+                                <td class="py-4">PT. Maju Jaya</td>
+                                <td class="py-4">IG Feed</td>
+                                <td class="py-4">10 Jun 2024</td>
+                                <td class="py-4"><span class="bg-slate-200 text-slate-700 font-semibold px-2.5 py-1 rounded-lg text-[11px]">Draf</span></td>
+                                <td class="py-4 text-gray-700">Kreator Digital</td>
+                                <td class="py-4 text-center">
+                                    <div class="flex items-center justify-center gap-3">
+                                        <button class="text-gray-500 hover:text-indigo-600"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
+                                        <button class="text-gray-400 hover:text-gray-700"><i class="fa-solid fa-ellipsis"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50/80 transition-all">
+                                <td class="py-4 font-semibold text-gray-800">#CON-0002</td>
+                                <td class="py-4 font-medium text-gray-800">"Event Musik Lokal"</td>
+                                <td class="py-4">Sarah Amalia</td>
+                                <td class="py-4">Blog</td>
+                                <td class="py-4">12 Jun 2024</td>
+                                <td class="py-4"><span class="bg-amber-100 text-amber-700 font-semibold px-2.5 py-1 rounded-lg text-[11px]">Revisi</span></td>
+                                <td class="py-4 text-gray-700">Kreator Digital</td>
+                                <td class="py-4 text-center">
+                                    <div class="flex items-center justify-center gap-3">
+                                        <button class="text-gray-500 hover:text-indigo-600"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
+                                        <button class="text-gray-400 hover:text-gray-700"><i class="fa-solid fa-ellipsis"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50/80 transition-all">
+                                <td class="py-4 font-semibold text-gray-800">#CON-0003</td>
+                                <td class="py-4 font-medium text-gray-800">"Konten Website Campaign"</td>
+                                <td class="py-4">Foodies Abadi</td>
+                                <td class="py-4">TikTok</td>
+                                <td class="py-4">14 Jun 2024</td>
+                                <td class="py-4"><span class="bg-blue-100 text-blue-700 font-semibold px-2.5 py-1 rounded-lg text-[11px]">Siap Publikasi</span></td>
+                                <td class="py-4 text-gray-700">Kreator Digital</td>
+                                <td class="py-4 text-center">
+                                    <div class="flex items-center justify-center gap-3">
+                                        <button class="text-gray-500 hover:text-indigo-600"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
+                                        <button class="text-gray-400 hover:text-gray-700"><i class="fa-solid fa-ellipsis"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-gray-50/80 transition-all">
+                                <td class="py-4 font-semibold text-gray-800">#CON-0004</td>
+                                <td class="py-4 font-medium text-gray-800">"Tips Bisnis Online"</td>
+                                <td class="py-4">Sarah Amalia</td>
+                                <td class="py-4">Facebook</td>
+                                <td class="py-4">15 Jun 2024</td>
+                                <td class="py-4"><span class="bg-emerald-100 text-emerald-700 font-semibold px-2.5 py-1 rounded-lg text-[11px]">? Terpublikasi</span></td>
+                                <td class="py-4 text-gray-700">Kreator Digital</td>
+                                <td class="py-4 text-center">
+                                    <div class="flex items-center justify-center gap-3">
+                                        <button class="text-gray-500 hover:text-indigo-600"><i class="fa-regular fa-pen-to-square text-sm"></i></button>
+                                        <button class="text-gray-400 hover:text-gray-700"><i class="fa-solid fa-ellipsis"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+                <div class="flex justify-between items-center mb-5">
+                    <h3 class="text-sm font-bold text-gray-800">Arsip Konten Terbaru</h3>
+                    <button class="text-xs font-bold text-[#4F46E5] hover:underline">Lihat Semua</button>
+                </div>
+                
+                <div class="grid grid-cols-4 gap-5">
+                    <div class="border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all bg-white flex flex-col justify-between">
+                        <div class="h-40 bg-slate-100 relative">
+                            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover" alt="Promo">
+                            <span class="absolute top-3 left-3 bg-purple-600 text-white text-[9px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider">Instagram</span>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-xs text-gray-800 line-clamp-1">Promo Produk Baru</h4>
+                            <p class="text-[10px] text-gray-400 font-medium mt-1">Klien: PT. Maju Jaya</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all bg-white flex flex-col justify-between">
+                        <div class="h-40 bg-slate-100 relative">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover" alt="Tips">
+                            <span class="absolute top-3 left-3 bg-blue-600 text-white text-[9px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider">Website</span>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-xs text-gray-800 line-clamp-1">Tips Bisnis Online</h4>
+                            <p class="text-[10px] text-gray-400 font-medium mt-1">Klien: Bima Putra</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all bg-white flex flex-col justify-between">
+                        <div class="h-40 bg-slate-100 relative">
+                            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover" alt="Video">
+                            <span class="absolute top-3 left-3 bg-pink-600 text-white text-[9px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider">TikTok</span>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-xs text-gray-800 line-clamp-1">Menu Baru Video Campaign</h4>
+                            <p class="text-[10px] text-gray-400 font-medium mt-1">Klien: Kafe Kita</p>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all bg-white flex flex-col justify-between">
+                        <div class="h-40 bg-slate-100 relative">
+                            <img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&q=80&w=400" class="w-full h-full object-cover" alt="Ramadan">
+                            <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[9px] font-bold px-2 py-0.5 rounded-md uppercase tracking-wider">Facebook</span>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-xs text-gray-800 line-clamp-1">Ramadan Campaign</h4>
+                            <p class="text-[10px] text-gray-400 font-medium mt-1">Klien: PT. Foodies Abadi</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+</body>
+</html>

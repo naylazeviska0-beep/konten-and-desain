@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek - Konten & Desain</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#F8F9FD] min-h-screen font-['Plus_Jakarta_Sans']">
+
+    <div class="flex min-h-screen">
+        <aside class="w-64 bg-[#1E1E50] text-white flex flex-col justify-between p-4 fixed h-full z-10">
+            <div>
+                <div class="flex items-center gap-3 px-2 py-4 mb-4">
+                    <div class="bg-gradient-to-tr from-purple-600 to-blue-500 w-10 h-10 rounded-xl flex items-center justify-center font-bold text-xl italic shadow-md">KD</div>
+                    <div>
+                        <h1 class="font-bold text-sm tracking-wide leading-tight">KONTEN & DESAIN</h1>
+                        <p class="text-[10px] text-gray-400 font-medium tracking-widest">KREATIF . STRATEGIS . BERDAMPAK</p>
+                    </div>
+                </div>
+
+                <nav class="space-y-1">
+                    <a href="dashboard.html" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-house w-5 text-center"></i> Dashboard
+                    </a>
+                    <a href="proyek.html" class="flex items-center gap-3 px-4 py-3 bg-[#4F46E5] text-white rounded-xl text-sm font-semibold transition-all">
+                        <i class="fa-solid fa-folder w-5 text-center"></i> Proyek
+                    </a>
+                    <a href="#" onclick="alert('Halaman Pesanan dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-clipboard-list w-5 text-center"></i> Pesanan
+                    </a>
+                    <a href="#" onclick="alert('Halaman Kalender dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-calendar-days w-5 text-center"></i> Kalender
+                    </a>
+                    <a href="#" onclick="alert('Halaman Klien dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-users w-5 text-center"></i> Klien
+                    </a>
+                    <a href="#" onclick="alert('Halaman Konten dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-image w-5 text-center"></i> Konten
+                    </a>
+                    <a href="#" onclick="alert('Halaman Desain dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-palette w-5 text-center"></i> Desain
+                    </a>
+                    <a href="#" onclick="alert('Halaman Invoice dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-file-invoice-dollar w-5 text-center"></i> Invoice
+                    </a>
+                    <a href="#" onclick="alert('Halaman Laporan dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-chart-simple w-5 text-center"></i> Laporan
+                    </a>
+                    <a href="#" onclick="alert('Halaman Pengaturan dalam pengembangan')" class="flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-[#2A2A65] hover:text-white rounded-xl text-sm font-medium transition-all">
+                        <i class="fa-solid fa-gear w-5 text-center"></i> Pengaturan
+                    </a>
+                </nav>
+            </div>
+
+            <div class="bg-gradient-to-b from-[#2E2E7A] to-[#1E1E50] p-4 rounded-2xl text-center shadow-inner border border-purple-900/40">
+                <i class="fa-solid fa-crown text-amber-400 text-xl mb-2 block"></i>
+                <h4 class="font-bold text-xs text-white mb-1">Tingkatkan Layanan</h4>
+                <p class="text-[10px] text-gray-300 mb-3 px-1">Dapatkan lebih banyak fitur dengan paket premium.</p>
+                <button class="w-full bg-white text-[#1E1E50] py-2 rounded-xl text-xs font-bold hover:bg-gray-100 transition-all">Upgrade Sekarang</button>
+            </div>
+        </aside>
+
+        <div class="flex-1 ml-64 p-8">
+            <header class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800">Halaman Proyek</h2>
+                    <p class="text-xs text-gray-400 mt-0.5">Kelola, pantau, dan organisasikan semua tugas kreatif Anda.</p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <div class="relative w-64">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+                        <input type="text" placeholder="Cari proyek, klien..." class="w-full bg-white pl-9 pr-4 py-2 rounded-xl text-xs border border-gray-100 focus:outline-none focus:border-indigo-500 shadow-sm text-gray-600">
+                    </div>
+                    <div class="flex items-center gap-3 pl-2 border-l border-gray-200">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100" class="w-9 h-9 rounded-full object-cover border-2 border-indigo-100" alt="Avatar">
+                        <div>
+                            <h4 class="text-xs font-bold text-gray-800 flex items-center gap-1">Kreator Digital</h4>
+                            <p class="text-[10px] text-gray-400 font-medium">Administrator</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="grid grid-cols-4 gap-4 mb-6">
+                <div class="bg-white p-4 rounded-xl border border-gray-50 shadow-sm flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-indigo-50 text-[#4F46E5] flex items-center justify-center text-xs"><i class="fa-solid fa-folder"></i></div>
+                    <div><p class="text-[10px] text-gray-400 font-medium">Proyek Aktif</p><h3 class="text-base font-bold text-gray-800">24</h3></div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-gray-50 shadow-sm flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center text-xs"><i class="fa-solid fa-arrows-rotate"></i></div>
+                    <div><p class="text-[10px] text-gray-400 font-medium">Proyek Revisi</p><h3 class="text-base font-bold text-gray-800">12</h3></div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-gray-50 shadow-sm flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center text-xs"><i class="fa-solid fa-circle-check"></i></div>
+                    <div><p class="text-[10px] text-gray-400 font-medium">Proyek Selesai</p><h3 class="text-base font-bold text-gray-800">45</h3></div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-gray-50 shadow-sm flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center text-xs"><i class="fa-solid fa-star"></i></div>
+                    <div><p class="text-[10px] text-gray-400 font-medium">Baru Bulan Ini</p><h3 class="text-base font-bold text-gray-800">2</h3></div>
+                </div>
+            </section>
+
+            <div class="grid grid-cols-12 gap-6">
+                <div class="col-span-8 bg-white p-5 rounded-2xl border border-gray-50 shadow-sm">
+                    <div class="flex justify-between items-center mb-4">
+                        <button class="bg-[#4F46E5] text-white text-xs font-bold px-4 py-2 rounded-xl shadow-md hover:bg-[#4338CA] transition-all">+ Tambah Proyek Baru</button>
+                        <div class="flex gap-2">
+                            <button class="border border-gray-200 text-gray-600 text-xs px-3 py-1.5 rounded-lg flex items-center gap-1.5"><i class="fa-solid fa-filter"></i> Filter</button>
+                        </div>
+                    </div>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="border-b border-gray-100 text-[10px] text-gray-400 uppercase font-bold tracking-wider">
+                                    <th class="pb-3">Nama Proyek</th>
+                                    <th class="pb-3">Klien</th>
+                                    <th class="pb-3">Tenggat Waktu</th>
+                                    <th class="pb-3">Status</th>
+                                    <th class="pb-3">Prioritas</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-xs text-gray-700 divide-y divide-gray-50">
+                                <tr>
+                                    <td class="py-3.5 font-semibold">Konten Instagram Feed - Brand A</td>
+                                    <td class="py-3.5 text-gray-500">PT. Fashion Lokal</td>
+                                    <td class="py-3.5 text-gray-500">15 Jun 2026</td>
+                                    <td class="py-3.5"><span class="bg-indigo-50 text-[#4F46E5] text-[10px] font-bold px-2 py-0.5 rounded">Dalam Proses</span></td>
+                                    <td class="py-3.5"><span class="bg-red-50 text-red-600 text-[10px] font-bold px-2 py-0.5 rounded">Tinggi</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3.5 font-semibold">Desain Banner Website - Promo B</td>
+                                    <td class="py-3.5 text-gray-500">PT. Maju Bersama</td>
+                                    <td class="py-3.5 text-gray-500">22 Jun 2026</td>
+                                    <td class="py-3.5"><span class="bg-amber-50 text-amber-600 text-[10px] font-bold px-2 py-0.5 rounded">Menunggu Revisi</span></td>
+                                    <td class="py-3.5"><span class="bg-yellow-50 text-yellow-600 text-[10px] font-bold px-2 py-0.5 rounded">Sedang</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3.5 font-semibold">TikTok Campaign - Kuliner Hits</td>
+                                    <td class="py-3.5 text-gray-500">PT. Kuliner Hits</td>
+                                    <td class="py-3.5 text-gray-500">28 Jun 2026</td>
+                                    <td class="py-3.5"><span class="bg-emerald-50 text-emerald-600 text-[10px] font-bold px-2 py-0.5 rounded">Selesai</span></td>
+                                    <td class="py-3.5"><span class="bg-green-50 text-green-600 text-[10px] font-bold px-2 py-0.5 rounded">Rendah</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-span-4 space-y-6">
+                    <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm">
+                        <h3 class="text-xs font-bold text-gray-800 mb-4">File Proyek Terbaru</h3>
+                        <div class="space-y-3 text-xs">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 bg-red-50 text-red-500 flex items-center justify-center font-bold text-[10px] rounded">PDF</div>
+                                <div><h4 class="font-bold text-gray-800">Logo PT. Fashion.png</h4><p class="text-[9px] text-gray-400">Figma via PDF</p></div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 bg-blue-50 text-blue-500 flex items-center justify-center font-bold text-[10px] rounded">FIG</div>
+                                <div><h4 class="font-bold text-gray-800">Website Layout.fig</h4><p class="text-[9px] text-gray-400">Figma atau PNG</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-2xl border border-gray-50 shadow-sm">
+                        <h3 class="text-xs font-bold text-gray-800 mb-4">Timeline Proyek</h3>
+                        <div class="relative pl-4 border-l-2 border-indigo-100 space-y-4 text-xs">
+                            <div class="relative">
+                                <div class="absolute -left-[21px] top-1 w-2.5 h-2.5 rounded-full bg-[#4F46E5]"></div>
+                                <h4 class="font-bold text-gray-800">Desain Awal Diserahkan</h4>
+                                <span class="text-[9px] text-gray-400">10 Jun</span>
+                            </div>
+                            <div class="relative">
+                                <div class="absolute -left-[21px] top-1 w-2.5 h-2.5 rounded-full bg-amber-400"></div>
+                                <h4 class="font-bold text-gray-800">Revisi 1 Diterima</h4>
+                                <span class="text-[9px] text-gray-400">12 Jun</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
